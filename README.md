@@ -35,7 +35,7 @@ This project provides a Python script to automate the creation of multiple Fly.i
 Run the script with the required arguments:
 
 ```sh
-python main.py --count <number_of_apps> --org-slug <your_org_slug> --image <docker_image>
+python3 main.py --count <number_of_apps> --org-slug <your_org_slug> --image <docker_image>
 ```
 
 - `--count`: Number of Fly.io apps to create (integer)
@@ -45,7 +45,7 @@ python main.py --count <number_of_apps> --org-slug <your_org_slug> --image <dock
 **Example:**
 
 ```sh
-python main.py --count 3 --org-slug my-org --image nginx:latest
+python3 main.py --count 3 --org-slug my-org --image nginx:latest
 ```
 
 This will create 3 Fly.io apps in the organization `my-org` using the `nginx:latest` image.
