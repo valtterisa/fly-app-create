@@ -1,5 +1,4 @@
-# Fly App Create Script
-
+# Fly.io Bulk Creator - Create Flu.io apps and machines in bulk
 This project provides a Python script to automate the creation of multiple Fly.io apps and their associated machines. It is designed to help users quickly spin up several Fly.io applications with custom images and organization slugs.
 
 ## What It Does
