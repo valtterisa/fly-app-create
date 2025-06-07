@@ -1,5 +1,11 @@
-# Fly.io Bulk Creator - Create Flu.io apps and machines in bulk
-This project provides a Python script to automate the creation of multiple Fly.io apps and their associated machines. It is designed to help users quickly spin up several Fly.io applications with custom images and organization slugs.
+# Fly.io Bulk Creator - Create Fly.io apps and machines in bulk
+
+This project provides both Python and TypeScript code snippets to automate the creation of multiple Fly.io apps and their associated machines. These are intended as reusable snippets users can copy into their own codebases.
+
+## Folder Structure
+
+- `python/` — Python implementation (CLI script)
+- `ts/` — TypeScript implementation (API module)
 
 ## What It Does
 
@@ -32,23 +38,7 @@ This project provides a Python script to automate the creation of multiple Fly.i
 
 ## Usage
 
-Run the script with the required arguments:
-
-```sh
-python3 main.py --count <number_of_apps> --org-slug <your_org_slug> --image <docker_image>
-```
-
-- `--count`: Number of Fly.io apps to create (integer)
-- `--org-slug`: Your Fly.io organization slug (string)
-- `--image`: Docker image to use for the apps (string)
-
-**Example:**
-
-```sh
-python3 main.py --count 3 --org-slug my-org --image nginx:latest
-```
-
-This will create 3 Fly.io apps in the organization `my-org` using the `nginx:latest` image.
+See the respective folders for usage instructions and code.
 
 ## Notes
 

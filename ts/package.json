@@ -1,0 +1,20 @@
+{
+  "name": "fly-create-ts",
+  "version": "1.0.0",
+  "description": "TypeScript API for creating multiple Fly.io apps programmatically.",
+  "main": "dist/fly-create.js",
+  "types": "dist/fly-create.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "example": "ts-node run-example.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
